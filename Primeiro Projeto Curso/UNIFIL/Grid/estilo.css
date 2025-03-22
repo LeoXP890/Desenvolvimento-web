@@ -1,0 +1,15 @@
+.container {
+    display: grid;
+    grid-template-columns:200px 200px 200px;
+    gap: 10px;
+    background-color: red;
+    /* Espaçamento entre os itens */
+    width: 100%;
+}
+
+.container > div {
+    background-color: lightgray;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid black;
+}
